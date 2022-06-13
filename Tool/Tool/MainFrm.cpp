@@ -7,6 +7,7 @@
 #include "MainFrm.h"
 #include "PlayerView.h"
 #include "MonsterView.h"
+#include "MapView.h"
 
 
 
@@ -107,7 +108,7 @@ BOOL CMainFrame::OnCreateClient(LPCREATESTRUCT lpcs, CCreateContext* pContext)
 
 	m_MainSplitter.CreateView(0, 0, RUNTIME_CLASS(PlayerView), CSize(640, 300), pContext);
 	m_MainSplitter.CreateView(0, 1, RUNTIME_CLASS(PlayerView), CSize(640, 340), pContext);
-	m_MainSplitter.CreateView(1, 0, RUNTIME_CLASS(PlayerView), CSize(640, 300), pContext);
+	m_MainSplitter.CreateView(1, 0, RUNTIME_CLASS(MapView), CSize(640, 300), pContext);
 	m_MainSplitter.CreateView(1, 1, RUNTIME_CLASS(MonsterView), CSize(640, 340), pContext);
 
 

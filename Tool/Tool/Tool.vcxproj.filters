@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\06.FileInfo">
       <UniqueIdentifier>{232e41f4-b4a8-47d2-9e9e-777234b5d6b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\01. View\MapEdit">
+      <UniqueIdentifier>{9af71980-c317-499e-9f5f-9aefde73b2a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -81,6 +84,12 @@
     <ClInclude Include="MonsterView.h">
       <Filter>소스 파일\01. View\SelectDialog</Filter>
     </ClInclude>
+    <ClInclude Include="MapView.h">
+      <Filter>소스 파일\01. View\SelectDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDialog.h">
+      <Filter>소스 파일\01. View\MapEdit</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tool.cpp">
@@ -106,6 +115,12 @@
     </ClCompile>
     <ClCompile Include="MonsterView.cpp">
       <Filter>소스 파일\01. View\SelectDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MapView.cpp">
+      <Filter>소스 파일\01. View\SelectDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDialog.cpp">
+      <Filter>소스 파일\01. View\MapEdit</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

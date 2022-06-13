@@ -197,6 +197,8 @@
     <ClInclude Include="..\Header\Struct.h" />
     <ClInclude Include="FileInfo.h" />
     <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MapDialog.h" />
+    <ClInclude Include="MapView.h" />
     <ClInclude Include="MonsterView.h" />
     <ClInclude Include="PlayerView.h" />
     <ClInclude Include="Resource.h" />
@@ -209,6 +211,8 @@
   <ItemGroup>
     <ClCompile Include="FileInfo.cpp" />
     <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MapDialog.cpp" />
+    <ClCompile Include="MapView.cpp" />
     <ClCompile Include="MonsterView.cpp" />
     <ClCompile Include="PlayerView.cpp" />
     <ClCompile Include="stdafx.cpp">
