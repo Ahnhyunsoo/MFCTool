@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\02. Document">
+      <UniqueIdentifier>{6c7d665a-75c1-47a4-8d1c-849da05bc533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00. FrameWnd">
+      <UniqueIdentifier>{9374a54f-de4f-4311-ac12-46c55cb0c207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Header">
+      <UniqueIdentifier>{380acc7b-a819-46eb-8527-0c856dd97c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. View">
+      <UniqueIdentifier>{50cd932b-ec67-43c6-8eb4-ecbfa4bb6552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. View\SelectDialog">
+      <UniqueIdentifier>{5f9a137c-0b99-4278-b55f-50fcea35f50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.FileInfo">
+      <UniqueIdentifier>{232e41f4-b4a8-47d2-9e9e-777234b5d6b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>소스 파일\00. FrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>소스 파일\02. Document</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>소스 파일\01. View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Define.h">
+      <Filter>02.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Enum.h">
+      <Filter>02.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Functor.h">
+      <Filter>02.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Include.h">
+      <Filter>02.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Struct.h">
+      <Filter>02.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerView.h">
+      <Filter>소스 파일\01. View\SelectDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>소스 파일\06.FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterView.h">
+      <Filter>소스 파일\01. View\SelectDialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일\00. FrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>소스 파일\02. Document</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>소스 파일\01. View</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerView.cpp">
+      <Filter>소스 파일\01. View\SelectDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>소스 파일\06.FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterView.cpp">
+      <Filter>소스 파일\01. View\SelectDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
